@@ -12,8 +12,8 @@
     <RootNamespace>RuhRoh.Extensions.Microsoft.DependencyInjection</RootNamespace>
     <AssemblyName>RuhRoh.Extensions.Microsoft.DependencyInjection</AssemblyName>
     <PackageId>RuhRoh.Extensions.Microsoft.DependencyInjection</PackageId>
-    <PackageLicenseUrl>https://github.com/ruh-roh/ruh-roh/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/ruh-roh/ruh-roh</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/ruh-roh/RuhRoh.Extensions.Microsoft.DependencyInjection/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ruh-roh/RuhRoh.Extensions.Microsoft.DependencyInjection</PackageProjectUrl>
     <PackageTags>test;testing;chaos</PackageTags>
     <LangVersion>latest</LangVersion>
     <Version>0.1.0</Version>
@@ -32,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\RuhRoh\RuhRoh.csproj" />
+    <PackageReference Include="RuhRoh" Version="0.1.19-alpha" />
   </ItemGroup>
 
 </Project>
