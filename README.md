@@ -1,4 +1,4 @@
-[![Build Status](https://gotsharp.visualstudio.com/Ruh-Roh/_apis/build/status/Ruh-Roh-MS-DI-CI?branchName=alpha)](https://gotsharp.visualstudio.com/Ruh-Roh/_build/latest?definitionId=5?branchName=master)
+[![Build status](https://gotsharp.visualstudio.com/Ruh-Roh/_apis/build/status/Ruh-Roh-MS-DI-CI)](https://gotsharp.visualstudio.com/Ruh-Roh/_build/latest?definitionId=7)
 
 # Ruh Roh
 ## Microsoft.Extensions.DependencyInjection
