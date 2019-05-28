@@ -89,5 +89,12 @@ namespace RuhRoh.Extensions.Microsoft.DependencyInjection
 
             return affectedType;
         }
+
+        internal static void ResetAffectedServices()
+        {
+            AffectedServices.Clear();
+        }
+
+        internal static IDictionary<Type, object> GetAffectedServices() => AffectedServices;
     }
 }
